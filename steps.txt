@@ -9,4 +9,4 @@ This create a .venv virtual environment with name as your project folder
 Install requirements
 uv pip install -r requirements.txt
 
-
+##  uv is a faster package manager than pip
