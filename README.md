@@ -1,4 +1,4 @@
-Gesture Volume Control
+# Gesture Volume Control
 
 A Python-based application that uses Computer Vision to control your system's volume through hand gestures. By tracking the distance between your thumb and index finger, you can adjust the volume in real-time without touching your keyboard or mouse.
 🚀 How It Works
@@ -11,7 +11,7 @@ The application uses your webcam to capture video frames and processes them usin
 
     PyCaw / Osascript: To interface with the system's audio endpoints and change the volume level based on the calculated distance.
 
-🛠️ Prerequisites
+# 🛠️ Prerequisites
 
 Before running the project, ensure you have Python installed and the following libraries:
 Bash
@@ -19,7 +19,8 @@ Bash
 pip install opencv-python mediapipe numpy pycaw
 
 Note: pycaw is typically used for Windows. For macOS, the project may utilize osascript.
-📂 Project Structure
+
+# 📂 Project Structure
 
     VolumeGestureControl.py: The main execution script containing the hand tracking logic and volume mapping.
 
@@ -48,7 +49,7 @@ Note: pycaw is typically used for Windows. For macOS, the project may utilize os
 
         A visual bar on the screen will indicate the current volume level.
 
-📊 Logic Flow
+# 📊 Logic Flow
 
     Detect Hand Landmarks: Identify the positions of Landmark 4 (Thumb Tip) and Landmark 8 (Index Tip).
 
@@ -58,6 +59,6 @@ Note: pycaw is typically used for Windows. For macOS, the project may utilize os
 
     Update System: Apply the mapped value to the system audio master volume.
 
-📜 License
+# 📜 License
 
 This project is open-source and available under the MIT License.
